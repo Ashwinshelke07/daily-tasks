@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Firebase Phone Authentication</title>
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+  <!-- Firebase Configuration -->
+  <script>
+    const firebaseConfig = {
+      apiKey: "YOUR_API_KEY",
+      authDomain: "YOUR_AUTH_DOMAIN",
+      projectId: "YOUR_PROJECT_ID",
+      storageBucket: "YOUR_STORAGE_BUCKET",
+      messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+      appId: "YOUR_APP_ID"
+    };
+    // Initialize Firebase
+    const app = firebase.initializeApp(firebaseConfig);
+    const auth = firebase.auth();
+  </script>
+  <style>
+    /* Add your CSS styling here */
+  </style>
+</head>
+<body>
+  <div id="recaptcha-container"></div>
+  <div id="auth-container">
+    <input type="text" id="phone-number" placeholder="Enter phone number">
+    <button onclick="sendOTP()">Send OTP</button>
+    <br>
+    <input type="text" id="otp" placeholder="Enter OTP">
+    <button onclick="verifyOTP()">Verify OT<!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <title>Firebase Phone Authentication</title>
+          <!-- Firebase SDK -->
+          <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+          <!-- Firebase Configuration -->
+          <script>
+            const firebaseConfig = {
+              apiKey: "YOUR_API_KEY",
+              authDomain: "YOUR_AUTH_DOMAIN",
+              projectId: "YOUR_PROJECT_ID",
+              storageBucket: "YOUR_STORAGE_BUCKET",
+              messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+              appId: "YOUR_APP_ID"
+            };
+            // Initialize Firebase
+            const app = firebase.initializeApp(firebaseConfig);
+            const auth = firebase.auth();
+          </script>
+          <!-- reCAPTCHA -->
+          <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+          <style>
+            /* Apply Flexbox to center the content */
+            body, html {
+              height: 100%;
+              margin: 0;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-family: Arial, sans-serif;
+              background-color: #f0f0f0;
+            }
+            #auth-container {
+              background-color: #fff;
+              padding: 20px;
+              border-radius: 8px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            }
+            input {
+              width: 200px;
+              padding: 10px;
+              margin: 10px 0;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            }
+            button {
+              width: 100%;
+              padding: 10px;
+              margin: 10px 0;
+              border: none;
+              border-radius: 4px;
+              background-color: #007bff;
+              color: #fff;
+              font-size: 16px;
+            }
+            button:hover {
+              background-color: #0056b3;
+            }
+          </style>
+        </head>
+        <body>
+          <div id="auth-container">
+            <div id="recaptcha-container"></div>
+            <input type="text" id="phone-number" placeholder="Enter phone number">
+            <button onclick="sendOTP()">Send OTP</button>
+            <br>
+            <input type="text" id="otp" placeholder="Enter OTP">
+            <button onclick="verifyOTP()">Verify OTP</button>
+          </div>
+          <script src="home.js"></script>
+        </body>
+        </html>
+        P</button>
+  </div>
+  <script src="home.js"></script> 
+</body>
+</html>
